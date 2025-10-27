@@ -8,9 +8,6 @@ public class Insercao extends OrdenacaoBase{
     int trocas = 0;
     
     public void ordenacao (int vet[]){
-    //comparacoes = 0;
-    //trocas = 0;
-    
     int i, j, aux;
     for (i = 1; i < vet.length; i++){
         aux = vet[i];
@@ -33,3 +30,4 @@ public class Insercao extends OrdenacaoBase{
     }
     
 }
+
