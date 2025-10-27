@@ -3,8 +3,6 @@ package metodosDeOrdenacao;
 import basesMetodosOrdenacao.OrdenacaoBase;
 
 public class Selecao extends OrdenacaoBase {
-    //int comparacoes = 0; 
-    //int trocas = 0;
 
     public void ordenacao (int[] vet){
         comparacoes = 0;
@@ -38,4 +36,5 @@ public class Selecao extends OrdenacaoBase {
     }
 }
     
+
 
