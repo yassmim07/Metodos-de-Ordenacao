@@ -17,8 +17,7 @@ public class Principal_ADO3 {
         
         do {
             System.out.println("""
-                ------------- Métodos de Ordenação -------------
-                \n
+                ------------- Métodos de Ordenação ------------- 
                 Opções: 
                 1 - Método Bolha
                 2 - Método de Seleção
@@ -59,7 +58,7 @@ public class Principal_ADO3 {
             
             
               
-            System.out.println("\n------------------- Saídas ---------------------\n");
+            System.out.println("\n-------------------- Saídas --------------------\n");
 
                 metodo = selecaoDoMetodo.escolha(op_escolhida);
                 exibirSaida.saida(vet, metodo);
@@ -67,7 +66,7 @@ public class Principal_ADO3 {
 
             System.out.println("\n");      
                 System.out.println("""
-                                   +++++++------- Deseja continuar? -------+++++++
+                                   +++++++-------- Deseja continuar? --------+++++++
                                    1 - Sim 
                                    2 - Não
                                    """);
