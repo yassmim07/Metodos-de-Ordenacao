@@ -7,7 +7,7 @@ public class gerarRandom {
     public static int[] gerarNums(int vet[], int opc) {
         Scanner sc = new Scanner(System.in);
         Random rd  = new Random();
-        vet = new int[0]; // garante inicialização
+        vet = new int[0]; // garante a inicializaÃ§Ã£o
 
         switch (opc){
             case 1: 
@@ -15,7 +15,7 @@ public class gerarRandom {
                 System.out.println("\n");
                 System.out.println("Um Volume de Dados Pequeno possui 10 valores. Digite-os: ");
                 for (int i = 0; i < vet.length; i++){
-                    System.out.printf("%d° valor: ", i + 1);
+                    System.out.printf("%dÂ° valor: ", i + 1);
                     vet[i] = sc.nextInt();
                 }
                 break;
@@ -32,7 +32,8 @@ public class gerarRandom {
                 }
                 break;
             default:
-                System.out.println("Opção inválida.");
+                System.out.println("OpÃ§Ã£o invÃ¡lida! Saindo do programa..");
+                System.exit(0);
                 break;
         }
         return vet;
