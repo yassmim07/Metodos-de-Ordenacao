@@ -1,7 +1,7 @@
 # Sistema de escolhas com Métodos de Ordenação 
 
 # Visão Geral ⭐
-Esta foi uma atividade realizada para a matéria de Algoritmos e Programação II. Ela consiste em o usuário selecionar um método de ordenação (como por exemplo o Bubble Sort, Selection Sort ou Insertion Sort) e logo em seguida escolher o tamanho do volume de dados que deseja que sejam gerados aleatoriamente (no geral possui 3 tamanhos: pequeno, médio e grande. Sendo todos com valores já pré-definidos). Foi uma atividade proposta para nos ajudar a praticar os métodos de ordenação e geração de dados via random. 
+Esta foi uma atividade realizada para a matéria de Algoritmos e Programação II, do 2°semestre do curso Bacharelado em Sistemas de Informação. Ela consiste em o usuário selecionar um método de ordenação (como por exemplo o Bubble Sort, Selection Sort ou Insertion Sort) e logo em seguida escolher o tamanho do volume de dados que deseja que sejam gerados aleatoriamente (no geral possui 3 tamanhos: pequeno, médio e grande. Sendo todos com valores já pré-definidos). Foi uma atividade proposta para nos ajudar a praticar os métodos de ordenação e geração de dados via random. 
 
 # Como rodar o projeto 💻
 - Baixe o projeto
